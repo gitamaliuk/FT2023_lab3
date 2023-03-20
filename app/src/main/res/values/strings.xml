@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FT2023_lab2</string>
+    <string-array name="options_array">
+        <item>Chars</item>
+        <item>Words</item>
+    </string-array>
+</resources>
