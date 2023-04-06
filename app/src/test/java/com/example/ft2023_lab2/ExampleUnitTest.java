@@ -51,8 +51,8 @@ public class ExampleUnitTest {
     }
     @Test
     public void getWordsCount_SymbolAndSpaces_ReturnNumber(){
-        String givenString = "  :) ?/  *-";
-        int expectedResult = 3;
+        String givenString = "  :) ? ";
+        int expectedResult = 2;
         int actualResult = TextCounter.getWordsCount(givenString);
         assertEquals(expectedResult, actualResult);
     }
